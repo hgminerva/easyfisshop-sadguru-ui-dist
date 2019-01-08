@@ -263,7 +263,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppSettings", function() { return AppSettings; });
 var AppSettings = /** @class */ (function () {
     function AppSettings() {
-        this.defaultAPIURLHost = "http://localhost:55319";
+        this.defaultAPIURLHost = "http://easyfisshop-sadguru-api.azurewebsites.net";
     }
     return AppSettings;
 }());
@@ -333,7 +333,7 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__["platformB
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\Work\Easyfis\Projects\Integrations\Easyfis Online Shop Integrator\EasyfisShop\src\main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! D:\Work\Easyfis\Projects\Integrations\Easyfis Online Shop Integrator\EasyfisShop\easyfisshop-sadguru-ui\src\main.ts */"./src/main.ts");
 
 
 /***/ })

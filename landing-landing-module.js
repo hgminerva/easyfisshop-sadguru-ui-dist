@@ -18,7 +18,7 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<p>\n  about works!\n</p>\n"
+module.exports = "<p>\r\n  about works!\r\n</p>\r\n"
 
 /***/ }),
 
@@ -74,7 +74,7 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<p>\n  contact works!\n</p>\n"
+module.exports = "<p>\r\n  contact works!\r\n</p>\r\n"
 
 /***/ }),
 
@@ -130,7 +130,7 @@ module.exports = "header.masthead {\r\n    position: relative;\r\n    background
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<header class=\"masthead text-white text-center \">\n  <div class=\"overlay \"></div>\n  <div class=\"container \">\n    <div class=\"row \">\n      <div class=\"col-xl-10 mx-auto \">\n        <br />\n        <h1 style=\"font-size: 60px; font-weight: bold; margin-top: 15px;\">\n          EASYFIS ONLINE \n          <br />\n          SHOP INTEGRATOR\n        </h1>\n        <hr style=\"background-color: white; height: 1px; width: 80%;\" />\n        <br />\n        <p class=\"lead \" style=\"font-size: 25px; margin-top: -20px; color: gainsboro;\">\n          Manage your orders using cloud!\n        </p>\n      </div>\n      <div class=\"col-md-10 col-lg-8 col-xl-7 mx-auto \">\n        <br />\n        <button type=\"submit \" class=\"btn btn-lg btn-primary \" routerLink=\"/software\">Integrate</button>\n      </div>\n    </div>\n  </div>\n</header>"
+module.exports = "<header class=\"masthead text-white text-center \">\r\n  <div class=\"overlay \"></div>\r\n  <div class=\"container \">\r\n    <div class=\"row \">\r\n      <div class=\"col-xl-10 mx-auto \">\r\n        <br />\r\n        <h1 style=\"font-size: 60px; font-weight: bold; margin-top: 15px;\">\r\n          EASYFIS ONLINE \r\n          <br />\r\n          SHOP INTEGRATOR\r\n        </h1>\r\n        <hr style=\"background-color: white; height: 1px; width: 80%;\" />\r\n        <br />\r\n        <p class=\"lead \" style=\"font-size: 25px; margin-top: -20px; color: gainsboro;\">\r\n          Manage your orders using cloud!\r\n        </p>\r\n      </div>\r\n      <div class=\"col-md-10 col-lg-8 col-xl-7 mx-auto \">\r\n        <br />\r\n        <button type=\"submit \" class=\"btn btn-lg btn-primary \" routerLink=\"/software\">Integrate</button>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</header>"
 
 /***/ }),
 
@@ -293,7 +293,7 @@ module.exports = ".navbar {\r\n    box-shadow: 0px 2px 3px 0px #323232;\r\n}\r\n
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<nav class=\"navbar fixed-top navbar-expand-lg navbar-light bg-light\">\n    <div class=\"container\">\n        <a class=\"navbar-brand\" routerLink=\"/landing/home\">\n            <img src=\"../../../assets/img/logo/easyfislogo.png\" height=\"30\" alt=\"\">\n        </a>\n        <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\"\n            aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <span class=\"navbar-toggler-icon\"></span>\n        </button>\n\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul class=\"navbar-nav mr-auto\"></ul>\n            <a *ngIf=\"isShowLoginButton\" routerLink=\"/account/login\" class=\"btn btn-primary\" href=\"#\" role=\"button\">Sign In</a>\n            <ul *ngIf=\"isShowUsername\" class=\"navbar-nav\">\n                <li class=\"nav-item dropdown\">\n                    <a class=\"nav-link dropdown-toggle\" href=\"#\" id=\"navbarDropdownMenuLink\" data-toggle=\"dropdown\"\n                        aria-haspopup=\"true\" aria-expanded=\"false\">\n                        {{ username }}\n                    </a>\n                    <div class=\"dropdown-menu dropdown-menu-right\" aria-labelledby=\"navbarDropdownMenuLink\">\n                        <a class=\"dropdown-item\" routerLink=\"/software\">\n                            <fa name=\"dashboard\"></fa> Software\n                        </a>\n                        <hr />\n                        <a class=\"dropdown-item\" routerLink=\"#\" (click)=\"signOut()\">\n                            <fa name=\"power-off\"></fa> Sign Out\n                        </a>\n                    </div>\n                </li>\n            </ul>\n        </div>\n    </div>\n</nav>\n<router-outlet></router-outlet>\n<div class=\"home-footer\">\n    <div class=\"container\">\n        <b>Easyfis Online Shop Integrator</b> V.1.20180102.1132.NOR\n    </div>\n</div>"
+module.exports = "<nav class=\"navbar fixed-top navbar-expand-lg navbar-light bg-light\">\r\n    <div class=\"container\">\r\n        <a class=\"navbar-brand\" routerLink=\"/landing/home\">\r\n            <img src=\"../../../assets/img/logo/easyfislogo.png\" height=\"30\" alt=\"\">\r\n        </a>\r\n        <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\"\r\n            aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\r\n            <span class=\"navbar-toggler-icon\"></span>\r\n        </button>\r\n\r\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\r\n            <ul class=\"navbar-nav mr-auto\"></ul>\r\n            <a *ngIf=\"isShowLoginButton\" routerLink=\"/account/login\" class=\"btn btn-primary\" href=\"#\" role=\"button\">Sign In</a>\r\n            <ul *ngIf=\"isShowUsername\" class=\"navbar-nav\">\r\n                <li class=\"nav-item dropdown\">\r\n                    <a class=\"nav-link dropdown-toggle\" href=\"#\" id=\"navbarDropdownMenuLink\" data-toggle=\"dropdown\"\r\n                        aria-haspopup=\"true\" aria-expanded=\"false\">\r\n                        {{ username }}\r\n                    </a>\r\n                    <div class=\"dropdown-menu dropdown-menu-right\" aria-labelledby=\"navbarDropdownMenuLink\">\r\n                        <a class=\"dropdown-item\" routerLink=\"/software\">\r\n                            <fa name=\"dashboard\"></fa> Software\r\n                        </a>\r\n                        <hr />\r\n                        <a class=\"dropdown-item\" routerLink=\"#\" (click)=\"signOut()\">\r\n                            <fa name=\"power-off\"></fa> Sign Out\r\n                        </a>\r\n                    </div>\r\n                </li>\r\n            </ul>\r\n        </div>\r\n    </div>\r\n</nav>\r\n<router-outlet></router-outlet>\r\n<div class=\"home-footer\">\r\n    <div class=\"container\">\r\n        <b>Easyfis Online Shop Integrator</b> V.1.20180102.1132.NOR\r\n    </div>\r\n</div>"
 
 /***/ }),
 
