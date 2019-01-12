@@ -264,6 +264,7 @@ __webpack_require__.r(__webpack_exports__);
 var AppSettings = /** @class */ (function () {
     function AppSettings() {
         this.defaultAPIURLHost = "http://easyfisshop-sadguru-api.azurewebsites.net";
+        // public defaultAPIURLHost: string = "http://localhost:55319";
     }
     return AppSettings;
 }());
