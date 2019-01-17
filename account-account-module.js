@@ -164,7 +164,7 @@ var LoginComponent = /** @class */ (function () {
             this.loginService.login(this.loginModel.UserName, this.loginModel.Password);
             this.loginSubscription = this.loginService.loginObservable.subscribe(function (data) {
                 if (data[0]) {
-                    _this.toastr.success(data[1].toString(), 'Success');
+                    _this.toastr.success(data[1], 'Success');
                     setTimeout(function () {
                         _this.router.navigate(['/software']);
                         if (_this.loginSubscription != null)
@@ -172,7 +172,7 @@ var LoginComponent = /** @class */ (function () {
                     }, 500);
                 }
                 else {
-                    _this.toastr.error(data[1].toString(), 'Error');
+                    _this.toastr.error(data[1], 'Error');
                     btnLogin.removeAttribute("disabled");
                     btnLogin.setAttribute("value", "Sign in");
                     inpUsername.removeAttribute("disabled");
